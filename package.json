@@ -3,8 +3,10 @@
     "inquirer": "^8.2.4",
     "install": "^0.13.0"
   },
-
-"scripts": {
-  "test": "jest"
-}
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }

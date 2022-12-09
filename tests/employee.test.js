@@ -18,7 +18,7 @@ test("Can set id via constructor", () => {
 });
 
 test("Can set email via constructor argument", () => {
-  const email = "example@example.com";
+  const testVal = "example@example.com";
   const a = new employee("Example", 1, testVal);
   expect(a.email).toBe(testVal);
 });
@@ -36,13 +36,13 @@ test("Can get id using getId()", () => {
 });
 
 test("Can get email using getEmail()", () => {
-  const email = "example@example.com";
+  const testVal = "example@example.com";
   const a = new employee("Example", 1, testVal);
   expect(a.getEmail()).toBe(testVal);
 });
 
 test('getRole() should return "employee"', () => {
-  const testValue = "employee";
+  const testVal = "employee";
   const a = new employee("john", 1, "example@example.com");
   expect(a.getRole()).toBe(testVal);
 });
